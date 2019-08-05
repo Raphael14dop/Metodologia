@@ -1,0 +1,60 @@
+1 - Método Eficiente de busca de patentes 
+
+2 - O que São patentes
+	Como São classificados, como funciona a nomenclatura.
+	
+Patentes são a concessão de um título de propriedade temporária de invenções de produtos, equipamentos, ferramentas e até mesmo de procedimentos 
+e métodos de negócio ou de produção, desde que estejam na fase de projeto, pois não é possível patentear uma ideia.Isso significa que enquanto a ideia 
+não é transformada em um projeto, a invenção ainda não existe, logo não é possível buscar a patente. Não precisa ser necessariamente um protótipo, 
+mas um plano que possa ser apresentado a outras pessoas para leitura e entendimento.
+
+Todos os pedidos de patentes publicados são classificados na área tecnológica a que pertencem. O INPI adota a Classificação Internacional de Patentes
+(IPC, na sigla em inglês) e, desde 2014, a Classificação Cooperativa de Patentes (CPC, na sigla em inglês) para classificar os pedidos. 
+A classificação de patente tem como objetivo inicial o estabelecimento de uma ferramenta de busca eficaz para a recuperação de documentos 
+de patentes pelos escritórios de propriedade intelectual e demais usuários, a fim de estabelecer a novidade e avaliar a atividade inventiva de 
+divulgações técnicas em pedidos de patente. 
+
+A IPC é o sistema de classificação internacional, criada a partir do Acordo de Estrasburgo (1971), cujas áreas tecnológicas são divididas nas classes A a H.
+Dentro de cada classe, há subclasses, grupos principais e grupos, através de um sistema hierárquico.
+
+Segundo dados da OMPI (Organização Mundial da Propriedade Intelectual), a
+cada ano o pedido de depósitos de patentes está na casa de 2,5 milhões, o que
+resulta na concessão de cerca de 1,2 milhões de patentes por ano. Cada vez mais,
+empresas nos Estados Unidos, Ásia e Europa utilizam as informações contidas nos
+	
+	
+3 - Patentes verdes e a base de dados que serão utilizados.
+
+O programa Patentes Verdes tem como objetivo contribuir para as mudanças climáticas globais e visa a acelerar o exame dos pedidos de patentes relacionados 
+a tecnologias voltadas para o meio ambiente (Resolução nº 175/2016).A geração de energia a partir de fontes renováveis é uma alternativa ao uso
+dos combustíveis fósseis. Fontes renováveis de energia vêm ganhando mais e mais atenção como alternativa vantajosa aos combustíveis fósseis na medida em que
+aumenta a demanda pela diminuição nas emissões de carbono e nos impactos ambientais.O Programa contempla tecnologias para energia alternativa, transporte,
+conservação de energia, gerenciamento de resíduos e agricultura. 
+O Green Technology Manual Codes se divide em seis categorias: transportes verdes; fontes de energia e geração de energia verdes; combustíveis verdes;
+consciência ambiental; redução e controle da poluição; e reciclagem de materiais.
+
+
+4 - Metodologia 
+
+	4.1 - Pre pocessamento
+	
+	
+
+	4.2 - Utilizar padroes frequentes para realizar agrupamento ( Falar sobre os metodos). Encontrar padroes de cada interesse na base de dados. 
+	
+	Analisar determinado conjunto de dados (“conjunto de treinamento”) e organizá-los de acordo com padrões. O reconhecimento de padrões visa classificar 
+	dados baseados em conhecimento a priori (preliminar ou dedutivo) ou informações estatísticas extraídas de padrões.
+	
+	Usar matriz de similaridade e realizar o textmining para comparação. Avaliar o melhor metodo que traz os resultados
+	Replicar os metodos que são mais utilizados para gerar dados para comparação dos métodos.
+	
+	
+5 - Desafios
+
+Um grande desafio e trabalhar com a grande quantidade de dados na realização da comparação da matriz de similaridade quando nesse caso dependendo do tamanho da
+base pode gerar uma matriz de similaridade muito grande e durante o processo de comparação usando o textmining. Desta forma , pode gerar um tempo muito grande
+para processar esses dados além disso pode precisar de uma máquina com um poder de processamento muito grande para tratar essas informações.
+
+Uma das idéias seria realizar o calculo de forma individual e armazenar no banco de dados para consulta dos resultados a posteriori por exemplo. Ainda não 
+foi pensado estamos ainda no processo de escolha e rodar padroes frequentes para verificar se o agrupamento produz uma vantagem satisfatoria no tamanho dos 
+dados.
